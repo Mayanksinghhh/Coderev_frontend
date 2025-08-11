@@ -1,4 +1,4 @@
-const API_BASE = 'https://coderev-backend-gyz2.onrender.com';
+const API_BASE = 'https://coderev-7rnh.onrender.com';
 
 export async function apiFetch(path, options = {}) {
     const token = localStorage.getItem('token');
